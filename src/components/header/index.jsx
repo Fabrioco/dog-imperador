@@ -9,7 +9,7 @@ export function Header({
   scrollToDrinks,
 }) {
   return (
-    <header className="w-full bg-orange-800 fixed top-0 z-50">
+    <header className="w-full bg-orange-800 fixed top-0 z-50 py-3">
       <div className="flex justify-center items-center gap-4 md:gap-10">
         <img src={logo} alt="Logo do site" className="w-16 h-16 rounded-full" />
         <h1 className="font-header text-xl md:text-2xl text-white">
